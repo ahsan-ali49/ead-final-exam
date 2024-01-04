@@ -68,16 +68,16 @@ export default function Footer() {
           <p>© 2020 FasTech Systems Private Limited Sukkur. </p>
           <p>Privacy Policy Terms & Conditions</p>
         </div>
-        <div className="col-lg-auto ms-auto">
+        <div className="col-lg-auto col-sm-auto ms-auto">
           <img src={footerpic1} alt="logo" />
         </div>
-        <div className="col-lg-auto">
+        <div className="col-lg-auto col-sm-auto">
           <img src={footerpic2} alt="logo" />
         </div>
-        <div className="col-lg-auto">
+        <div className="col-lg-auto col-sm-auto">
           <img src={footerpic3} alt="logo" />
         </div>
-        <div className="col-lg-auto">
+        <div className="col-lg-auto col-sm-auto">
           <img src={footerpic4} alt="logo" />
         </div>
       </Row>
