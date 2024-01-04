@@ -63,21 +63,21 @@ export default function Footer() {
           </svg>
         </div>
       </Row>
-      <Row className="mt-5">
-        <div className="col-lg-6">
+      <Row className="mt-5 no-wrap">
+        <div className="col-lg-6 col-sm-12">
           <p>© 2020 FasTech Systems Private Limited Sukkur. </p>
           <p>Privacy Policy Terms & Conditions</p>
         </div>
-        <div className="col-lg-auto col-sm-auto ms-auto">
+        <div className="col col-lg-1 col-sm-3 col-md-3">
           <img src={footerpic1} alt="logo" />
         </div>
-        <div className="col-lg-auto col-sm-auto">
+        <div className="col col-lg-1 col-sm-3 col-md-3">
           <img src={footerpic2} alt="logo" />
         </div>
-        <div className="col-lg-auto col-sm-auto">
+        <div className="col col-lg-1 col-sm-3 col-md-3">
           <img src={footerpic3} alt="logo" />
         </div>
-        <div className="col-lg-auto col-sm-auto">
+        <div className="col col-lg-1 col-sm-3 col-md-3">
           <img src={footerpic4} alt="logo" />
         </div>
       </Row>

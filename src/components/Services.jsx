@@ -7,7 +7,7 @@ export const Services = () => {
       <Row>
         <div className="col-lg-3">
           <div className="row">
-            <div className="col-lg-auto col-sm-auto">
+            <div className="col-lg-auto">
               <svg
                 width="30"
                 height="24"
@@ -30,7 +30,7 @@ export const Services = () => {
         </div>
         <div className="col-lg-3">
           <div className="row">
-            <div className="col-lg-auto col-sm-auto">
+            <div className="col-lg-auto">
               <svg
                 width="24"
                 height="24"
@@ -52,7 +52,7 @@ export const Services = () => {
         </div>
         <div className="col-lg-3">
           <div className="row">
-            <div className="col-lg-auto col-sm-auto">
+            <div className="col-lg-auto">
               <svg
                 width="24"
                 height="24"
@@ -74,7 +74,7 @@ export const Services = () => {
         </div>
         <div className="col-lg-3">
           <div className="row">
-            <div className="col-lg-auto col-sm-auto">
+            <div className="col-lg-auto">
               <svg
                 width="25"
                 height="24"
