@@ -1,16 +1,18 @@
 import './App.css';
-import Header from './components/Header';
 import Footer from './components/Footer';
 import {Route, Routes} from "react-router-dom";
-import HeroSection from "./components/HeroSection";
+import AllProducts from "./components/AllProducts";
+import { NavBar } from './components/NavBar';
+import { Services } from './components/Services';
 
 export default function App() {
     return (
         <div>
-            <Header/>
+            <NavBar/>
                 <Routes>
-                    <Route path={"/"} element={<HeroSection />}></Route>
+                    <Route path={"/"} element={<AllProducts />}></Route>
                 </Routes>
+                <Services/>
             <Footer/>
         </div>
     );

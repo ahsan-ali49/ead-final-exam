@@ -3,12 +3,12 @@ import React, {createContext, useContext, useState} from 'react';
 const MyExamContext = createContext();
 
 export const MyExamInformationProvider = ({children}) => {
-    const [state, setState] = useState('')
+    const [products, setProducts] = useState([])
 
     // states
     return (
         <MyExamContext.Provider value={{
-            state, setState
+            products, setProducts
         }}>
             {children}
         </MyExamContext.Provider>
