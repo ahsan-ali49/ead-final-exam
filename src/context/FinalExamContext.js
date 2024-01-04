@@ -4,11 +4,12 @@ const MyExamContext = createContext();
 
 export const MyExamInformationProvider = ({children}) => {
     const [products, setProducts] = useState([])
+    const [cartItems, setCartItems] = useState(0);
 
     // states
     return (
         <MyExamContext.Provider value={{
-            products, setProducts
+            products, setProducts, cartItems, setCartItems
         }}>
             {children}
         </MyExamContext.Provider>
